@@ -1,0 +1,54 @@
+{
+  "name": "one-ui-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://git.is.comhem.com/tcs/one-ui-core",
+  "author": "bo.sandevind@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest",
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "dev": "lerna run dev --stream",
+    "serve": "node server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.8.3",
+    "@babel/plugin-proposal-pipeline-operator": "^7.8.3",
+    "@babel/plugin-transform-object-assign": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@purtuga/esm-webpack-plugin": "1.2.1",
+    "@storybook/addon-actions": "^5.3.17",
+    "@storybook/addon-info": "^5.3.17",
+    "@storybook/addon-knobs": "5.3.17",
+    "@storybook/addon-links": "^5.3.17",
+    "@storybook/react": "^5.3.17",
+    "babel-eslint": "10.1.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "6.8.0",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "3.0.0",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^3.2.0",
+    "lerna": "^3.20.2",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "loader-utils": "latest",
+    "path": "^0.12.7",
+    "to-string-loader": "^1.1.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+  }
+}

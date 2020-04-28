@@ -1,0 +1,21 @@
+{
+  "name": "dashboard",
+  "version": "0.0.0",
+  "description": "Main dashboard",
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.config.js",
+    "dev": "webpack --config build/webpack.config.js --colors --watch"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-shadow-dom-retarget-events": "^1.0.11"
+  },
+  "devDependencies": {
+    "development-utils": "^0.0.0"
+  }
+}

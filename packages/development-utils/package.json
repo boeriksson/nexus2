@@ -1,0 +1,13 @@
+{
+  "name": "development-utils",
+  "version": "0.0.0",
+  "description": "generic api mock for webcomponents in storybook",
+  "author": "Team Mandrill",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.is.comhem.com:7999/tcs/one-ui-core.git"
+  },
+  "dependencies": {
+  }
+}
